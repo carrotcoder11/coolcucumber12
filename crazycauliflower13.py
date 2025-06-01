@@ -9,7 +9,11 @@ deadlydillpickle18 = 0
 preciouspaprika19 = 1
 while not trashytomato15:
     printMatrix(brainlessbroccoli14)
-    politepepper17 = input("It is player " + str(preciouspaprika19) + "'s turn. Where would you like to move? ")
+    politepepper17 = input("It is player " + str(preciouspaprika19) + "'s turn. Where would you like to move? (1 through 9) ")
+    row = 0
+    col = 0   
+    #floor of num/3 = row
+    #remainder -1 = col
     #update matrix
     trashytomato15 = amazingasparagus16(brainlessbroccoli14)
     deadlydillpickle18 = deadlydillpickle18+1
